@@ -1,0 +1,116 @@
+body {
+	font-family:Arial;
+	font-size: 11pt;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+	
+}
+
+h1, .h1 {
+	font-size: 36px;
+}
+
+h2, .h2 {
+	font-size: 30px;
+}
+
+h3, .h3 {
+	font-size: 24px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+}
+
+h5, .h5 {
+	font-size: 14px;
+}
+
+h6, .h6 {
+	font-size: 12px;
+}
+
+.center {
+	text-align: center;
+}
+
+table.layout {
+	width: 100%;
+	font-size: 11pt;
+	border-collapse: collapse;
+	border: no;
+	
+}
+
+table.layout th, table.layout td {
+	border: none;
+	padding: 0 5px;
+}
+
+table.frame-a4 {
+	width: 6.5in;
+    border-collapse: collapse;
+    border: 0px dotted #cecece;
+    margin: 0 auto;
+}
+
+table.daftar {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	font-size: 9pt;
+}
+
+table.daftar th, table.daftar td {
+	border: 1px solid #000000;
+	padding: 0 5px;
+}
+
+table.daftar th {
+	background-color: #dedede;
+}
+
+table.tugas {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	font-size: 9pt;
+}
+
+table.tugas th, table.tugas td {
+	border: 1px solid #000000;
+	padding: 5px 5px;
+}
+
+table.tugas th {
+	background-color: #dedede;
+}
+
+td.shrink {
+	white-space:nowrap
+}
+
+.fa {
+	font-family: fontawesome; 
+	font-size: 11pt;
+}
+
+.rotate {
+	transform: rotate(-90deg);
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media print {
+	.page-break { display: block; page-break-before: always; }
+	size: A4 portrait;
+} 

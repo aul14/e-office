@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+/*
+	override css 
+
+ */
+
+#col-control {
+	position: absolute;
+	z-index: 99;
+}
+
+.box-list {
+    top: 0px;
+    width: 100%;
+    bottom: 0px;
+}
+
+.box-detail {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    right: 0;
+    bottom: 0px;
+    padding-top: 60px;
+    padding-right: 8px;
+}
+
+.box-detail > .box {
+	height: 100%;
+    box-shadow: -7px 7px 7px #bbbbbb;
+}
+
+.box-detail .box-header>.box-tools {
+	right: 0;
+}
+
+.gototop{
+	position: fixed;
+	bottom: 20px; 
+	right: 20px;
+	background: rgba(0,0,0,0.5);
+	padding: 7px;
+	color: #fff;
+}
+
+.gototop i{
+	line-height: 0.5em;
+}
+
+.nav-tree {
+	margin: 0 5px 12px;
+}
+
+#distribusi-area .checkbox {
+	padding: 1px 10px;
+}
+
+#distribusi-area .selected {
+	background-color: #3c8dbc;
+	border-color: #367fa9;
+	padding: 1px 10px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+@media (max-width:767px) {
+	
+	.box-detail {
+	    padding-top: 110px;
+	}
+	
+}

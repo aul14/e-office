@@ -1,0 +1,96 @@
+#konsep_text {
+	font-family:Arial;
+	font-size: 11pt;
+}
+
+#konsep_text h1, 
+#konsep_text h2,
+#konsep_text h3,
+#konsep_text h4,
+#konsep_text h5,
+#konsep_text h6,
+#konsep_text .h1,
+#konsep_text .h2,
+#konsep_text .h3,
+#konsep_text .h4,
+#konsep_text .h5,
+#konsep_text .h6 {
+	
+}
+
+#konsep_text h1, #konsep_text .h1 {
+	font-size: 36px;
+}
+
+#konsep_text h2, #konsep_text .h2 {
+	font-size: 30px;
+}
+
+#konsep_text h3, #konsep_text .h3 {
+	font-size: 24px;
+}
+
+#konsep_text h4, #konsep_text .h4 {
+	font-size: 18px;
+}
+
+#konsep_text h5, #konsep_text .h5 {
+	font-size: 14px;
+}
+
+#konsep_text h6, #konsep_text .h6 {
+	font-size: 12px;
+}
+
+#konsep_text .center {
+	text-align: center;
+}
+
+#konsep_text table.layout {
+	width: 100%;
+	font-size: 11pt;
+	border-collapse: collapse;
+	border: no;
+	
+}
+
+#konsep_text table.layout th, #konsep_text table.layout td {
+	border: none;
+	padding: 0 5px;
+}
+
+#konsep_text table.frame-a4 {
+	width: 6.5in;
+    border-collapse: collapse;
+    border: 1px dotted #cecece;
+    margin: 0 auto;
+}
+
+#konsep_text table.daftar {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	font-size: 9pt;
+}
+
+#konsep_text table.daftar th, #konsep_text table.daftar td {
+	border: 1px solid #000000;
+	padding: 0 5px;
+}
+
+#konsep_text table.daftar th {
+	background-color: #dedede;
+}
+
+#konsep_text td.shrink {
+	white-space:nowrap
+}
+
+#konsep_text .rotate {
+	transform: rotate(-90deg);
+}
+
+#konsep_text .fa {
+	font-family: fontawesome; 
+	font-size: 11pt;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pie Menu (like Path Menu) using jquery and CSS3 by Nikesh Hayaran</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/piemenu.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.menu.js"></script>
+		<script src="js/jquery-ui-1.8.20.custom.min.js"></script>
+	</head>
+	<body>
+		<div class='content'>
+				<div id='outer_container' class="outer_container" >
+					<a class="menu_button" href="#" title="Toggle"><span>Menu Toggle</span></a>
+					<ul class="menu_option">
+					  <li><a href="#"><span>Item</span></a></li>
+					  <li><a href="#"><span>Item</span></a></li>
+					  <li><a href="#"><span>Item</span></a></li>
+					  <li><a href="#"><span>Item</span></a></li>
+					  <li><a href="#"><span>Item</span></a></li>
+					</ul>
+				</div>	
+		</div>
+		<script>
+		function PieMenuInit(){		
+			$('#outer_container').PieMenu({
+				'starting_angel':$('#s_angle').val(),
+				'angel_difference' : $('#diff_angle').val(),
+				'radius':$('#radius').val(),
+			});			
+		}
+		$(function() {          
+			$("#submit_button").click(function() {reset(); }); 
+			$( "#outer_container" ).draggable();
+			PieMenuInit();
+			
+		});
+		function reset(){
+			if($(".menu_button").hasClass('btn-rotate'))
+			$(".menu_button").trigger('click');
+			
+			$("#info").fadeIn("slow").fadeOut("slow");
+			PieMenuInit();
+		}
+		</script>
+
+	</body>
+</html>
